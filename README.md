@@ -4,7 +4,7 @@ A free online textbook designed for beginners that includes sample projects to 
 Content includes 10 Chapters and 260 pages.
 
 
-
+--
 Topics covered include:
 
 How to navigate and use Xcode
@@ -21,3 +21,5 @@ Use Table Views to organize and present data
 
 Use Cocoapods to install outside frameworks
 
+
+Download and receive access to our book here: https://mailchi.mp/5466275623b7/book-download
