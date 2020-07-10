@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zHR-nc-bIo">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Currency Convertor-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Currency_Convertor__Starter_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l0s-ZL-nMd" userLabel="Currency Picker">
+                                <rect key="frame" x="20" y="164" width="374" height="216"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="216" id="bSx-QQ-S3t"/>
+                                </constraints>
+                            </pickerView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="vma-jE-lO1">
+                                <rect key="frame" x="60" y="140" width="294" height="19.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Select:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4u-8y-NvE">
+                                        <rect key="frame" x="0.0" y="0.0" width="168" height="19.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Convert To:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zar-qA-f3X">
+                                        <rect key="frame" x="208" y="0.0" width="86" height="19.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="57" translatesAutoresizingMaskIntoConstraints="NO" id="wdb-jk-uLL">
+                                <rect key="frame" x="48.5" y="440.5" width="317" height="40"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lnb-9p-DRR">
+                                        <rect key="frame" x="0.0" y="0.0" width="130" height="40"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="130" id="ck4-WI-GjW"/>
+                                            <constraint firstAttribute="height" constant="40" id="yo9-SQ-bdP"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Convert">
+                                            <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="convertPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tsp-5B-q7j"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="92a-hI-w19">
+                                        <rect key="frame" x="187" y="0.0" width="130" height="40"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="130" id="MyQ-r7-yL2"/>
+                                            <constraint firstAttribute="height" constant="40" id="TpH-a0-H2S"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Surprise Me">
+                                            <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="surprisePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j6I-1A-ITF"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Display Amount:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lqb-xr-jDa">
+                                <rect key="frame" x="48" y="505.5" width="118.5" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vma-jE-lO1" secondAttribute="trailing" constant="60" id="8aE-Eh-m5w"/>
+                            <constraint firstItem="vma-jE-lO1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="Bav-QW-6Aw"/>
+                            <constraint firstItem="vma-jE-lO1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="52" id="GHE-oG-6pn"/>
+                            <constraint firstItem="l0s-ZL-nMd" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Gp0-yX-0ON"/>
+                            <constraint firstItem="Lqb-xr-jDa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="48" id="KIY-CR-GR9"/>
+                            <constraint firstItem="l0s-ZL-nMd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="N2h-rq-UxX"/>
+                            <constraint firstItem="Lqb-xr-jDa" firstAttribute="top" secondItem="Lnb-9p-DRR" secondAttribute="bottom" constant="25" id="UXr-hM-1qz"/>
+                            <constraint firstItem="l0s-ZL-nMd" firstAttribute="top" secondItem="vma-jE-lO1" secondAttribute="bottom" constant="5" id="Yvh-bf-d0j"/>
+                            <constraint firstItem="wdb-jk-uLL" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="o1a-Al-MjR"/>
+                            <constraint firstItem="wdb-jk-uLL" firstAttribute="top" secondItem="l0s-ZL-nMd" secondAttribute="bottom" constant="60" id="qEy-gp-sd9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="l0s-ZL-nMd" secondAttribute="trailing" constant="20" id="zPB-zR-Fqf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Currency Convertor" id="F9c-db-pqS"/>
+                    <connections>
+                        <outlet property="currencyPicker" destination="l0s-ZL-nMd" id="Nsx-Ud-BL0"/>
+                        <outlet property="displayLabel" destination="Lqb-xr-jDa" id="3D0-yl-vge"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1957.9710144927537" y="126.5625"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="p5F-Kd-GiM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zHR-nc-bIo" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SQB-Iq-Ip1">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="1iV-X7-J4E"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="agS-E1-eIY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="126.5625"/>
+        </scene>
+    </scenes>
+</document>

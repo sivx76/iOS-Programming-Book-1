@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Music_Instruments__Starter_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0yN-TP-q3T" userLabel="Guitar">
+                                <rect key="frame" x="28" y="160.66666666666666" width="128" height="127.99999999999997"/>
+                                <state key="normal" image="electric-guitar"/>
+                                <connections>
+                                    <action selector="playGuitar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wv4-YM-sWJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mpj-1h-72z" userLabel="Trumpet">
+                                <rect key="frame" x="226" y="160.66666666666666" width="128" height="127.99999999999997"/>
+                                <state key="normal" image="trumpet"/>
+                                <connections>
+                                    <action selector="playTrumpet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z5Q-pB-WkF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I1n-0d-oLI" userLabel="Tuba">
+                                <rect key="frame" x="28" y="408.66666666666669" width="128" height="128.00000000000006"/>
+                                <state key="normal" image="tuba"/>
+                                <connections>
+                                    <action selector="playTuba:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w2h-Fr-JoV"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Music Player" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="id5-Ec-9Ck" userLabel="Label">
+                                <rect key="frame" x="127" y="74" width="121" height="26.666666666666671"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8q-K7-jVR" userLabel="Flute">
+                                <rect key="frame" x="226" y="408.66666666666669" width="128" height="128.00000000000006"/>
+                                <state key="normal" image="flute"/>
+                                <connections>
+                                    <action selector="playFlute:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ETr-Wo-FYp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="id5-Ec-9Ck" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="0gq-sZ-Pqd"/>
+                            <constraint firstItem="g8q-K7-jVR" firstAttribute="top" secondItem="mpj-1h-72z" secondAttribute="bottom" constant="120" id="DtS-Df-ZON"/>
+                            <constraint firstItem="I1n-0d-oLI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="JBl-Tt-Hdh"/>
+                            <constraint firstItem="0yN-TP-q3T" firstAttribute="top" secondItem="id5-Ec-9Ck" secondAttribute="bottom" constant="60" id="MsR-DG-F7x"/>
+                            <constraint firstItem="g8q-K7-jVR" firstAttribute="leading" secondItem="I1n-0d-oLI" secondAttribute="trailing" constant="70" id="d2N-ab-aGT"/>
+                            <constraint firstItem="0yN-TP-q3T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="dJq-1J-xi7"/>
+                            <constraint firstItem="id5-Ec-9Ck" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="f7U-nq-SxF"/>
+                            <constraint firstItem="I1n-0d-oLI" firstAttribute="top" secondItem="0yN-TP-q3T" secondAttribute="bottom" constant="120" id="r3O-c2-4Id"/>
+                            <constraint firstItem="mpj-1h-72z" firstAttribute="top" secondItem="id5-Ec-9Ck" secondAttribute="bottom" constant="60" id="vZ8-3w-Cmr"/>
+                            <constraint firstItem="mpj-1h-72z" firstAttribute="leading" secondItem="0yN-TP-q3T" secondAttribute="trailing" constant="70" id="x9i-qf-Tzm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="0gq-sZ-Pqd"/>
+                                <exclude reference="f7U-nq-SxF"/>
+                                <exclude reference="MsR-DG-F7x"/>
+                                <exclude reference="dJq-1J-xi7"/>
+                                <exclude reference="vZ8-3w-Cmr"/>
+                                <exclude reference="x9i-qf-Tzm"/>
+                                <exclude reference="JBl-Tt-Hdh"/>
+                                <exclude reference="r3O-c2-4Id"/>
+                                <exclude reference="DtS-Df-ZON"/>
+                                <exclude reference="d2N-ab-aGT"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="758" y="1162"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="electric-guitar" width="128" height="128"/>
+        <image name="flute" width="128" height="128"/>
+        <image name="trumpet" width="128" height="128"/>
+        <image name="tuba" width="128" height="128"/>
+    </resources>
+</document>
