@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F8CE96F2D9D7E9DC30DD157 /* Pods_Olympic_Maps__Completed_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE09897ACF89237CB020CE79 /* Pods_Olympic_Maps__Completed_.framework */; };
+		AEB6D8BA24A519E6008AC2DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6D8B924A519E6008AC2DD /* AppDelegate.swift */; };
+		AEB6D8BC24A519E6008AC2DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6D8BB24A519E6008AC2DD /* SceneDelegate.swift */; };
+		AEB6D8BE24A519E6008AC2DD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6D8BD24A519E6008AC2DD /* SearchViewController.swift */; };
+		AEB6D8C124A519E6008AC2DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB6D8BF24A519E6008AC2DD /* Main.storyboard */; };
+		AEB6D8C324A519E9008AC2DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB6D8C224A519E9008AC2DD /* Assets.xcassets */; };
+		AEB6D8C624A519E9008AC2DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB6D8C424A519E9008AC2DD /* LaunchScreen.storyboard */; };
+		AEB6D8D124A51A5C008AC2DD /* Olympic Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6D8D024A51A5C008AC2DD /* Olympic Game.swift */; };
+		AEB6D8D424A51AE2008AC2DD /* Olympic Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6D8D324A51AE2008AC2DD /* Olympic Series.swift */; };
+		AEB6D8D624A54DA2008AC2DD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6D8D524A54DA2008AC2DD /* MapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		255B2EEFD91C4E75BA4D0824 /* Pods-Olympic Maps (Completed).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Olympic Maps (Completed).debug.xcconfig"; path = "Target Support Files/Pods-Olympic Maps (Completed)/Pods-Olympic Maps (Completed).debug.xcconfig"; sourceTree = "<group>"; };
+		6B2B74C2AD53E6BC98FF41B7 /* Pods-Olympic Maps (Completed).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Olympic Maps (Completed).release.xcconfig"; path = "Target Support Files/Pods-Olympic Maps (Completed)/Pods-Olympic Maps (Completed).release.xcconfig"; sourceTree = "<group>"; };
+		AEB6D8B624A519E6008AC2DD /* Olympic Maps (Completed).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Olympic Maps (Completed).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB6D8B924A519E6008AC2DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEB6D8BB24A519E6008AC2DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AEB6D8BD24A519E6008AC2DD /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		AEB6D8C024A519E6008AC2DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEB6D8C224A519E9008AC2DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEB6D8C524A519E9008AC2DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEB6D8C724A519E9008AC2DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEB6D8D024A51A5C008AC2DD /* Olympic Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Olympic Game.swift"; sourceTree = "<group>"; };
+		AEB6D8D324A51AE2008AC2DD /* Olympic Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Olympic Series.swift"; sourceTree = "<group>"; };
+		AEB6D8D524A54DA2008AC2DD /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		CE09897ACF89237CB020CE79 /* Pods_Olympic_Maps__Completed_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Olympic_Maps__Completed_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEB6D8B324A519E6008AC2DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8CE96F2D9D7E9DC30DD157 /* Pods_Olympic_Maps__Completed_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3196857A30AD7865D3F55EC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				255B2EEFD91C4E75BA4D0824 /* Pods-Olympic Maps (Completed).debug.xcconfig */,
+				6B2B74C2AD53E6BC98FF41B7 /* Pods-Olympic Maps (Completed).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		771A009F4B013C80896E67F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE09897ACF89237CB020CE79 /* Pods_Olympic_Maps__Completed_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEB6D8AD24A519E6008AC2DD = {
+			isa = PBXGroup;
+			children = (
+				AEB6D8B824A519E6008AC2DD /* Olympic Maps (Completed) */,
+				AEB6D8B724A519E6008AC2DD /* Products */,
+				3196857A30AD7865D3F55EC2 /* Pods */,
+				771A009F4B013C80896E67F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AEB6D8B724A519E6008AC2DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEB6D8B624A519E6008AC2DD /* Olympic Maps (Completed).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEB6D8B824A519E6008AC2DD /* Olympic Maps (Completed) */ = {
+			isa = PBXGroup;
+			children = (
+				AEB6D8CD24A519FA008AC2DD /* Model */,
+				AEB6D8CE24A519FF008AC2DD /* View */,
+				AEB6D8CF24A51A07008AC2DD /* Controller */,
+				AEB6D8C224A519E9008AC2DD /* Assets.xcassets */,
+				AEB6D8C724A519E9008AC2DD /* Info.plist */,
+			);
+			path = "Olympic Maps (Completed)";
+			sourceTree = "<group>";
+		};
+		AEB6D8CD24A519FA008AC2DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEB6D8D024A51A5C008AC2DD /* Olympic Game.swift */,
+				AEB6D8D324A51AE2008AC2DD /* Olympic Series.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AEB6D8CE24A519FF008AC2DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AEB6D8BF24A519E6008AC2DD /* Main.storyboard */,
+				AEB6D8C424A519E9008AC2DD /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AEB6D8CF24A51A07008AC2DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AEB6D8B924A519E6008AC2DD /* AppDelegate.swift */,
+				AEB6D8BB24A519E6008AC2DD /* SceneDelegate.swift */,
+				AEB6D8BD24A519E6008AC2DD /* SearchViewController.swift */,
+				AEB6D8D524A54DA2008AC2DD /* MapViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEB6D8B524A519E6008AC2DD /* Olympic Maps (Completed) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEB6D8CA24A519E9008AC2DD /* Build configuration list for PBXNativeTarget "Olympic Maps (Completed)" */;
+			buildPhases = (
+				51F3FCF132CABC8B8D665514 /* [CP] Check Pods Manifest.lock */,
+				AEB6D8B224A519E6008AC2DD /* Sources */,
+				AEB6D8B324A519E6008AC2DD /* Frameworks */,
+				AEB6D8B424A519E6008AC2DD /* Resources */,
+				77586D45A699BFF63E11A8BC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Olympic Maps (Completed)";
+			productName = "Olympic Maps (Completed)";
+			productReference = AEB6D8B624A519E6008AC2DD /* Olympic Maps (Completed).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEB6D8AE24A519E6008AC2DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Ben Alemu";
+				TargetAttributes = {
+					AEB6D8B524A519E6008AC2DD = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = AEB6D8B124A519E6008AC2DD /* Build configuration list for PBXProject "Olympic Maps (Completed)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEB6D8AD24A519E6008AC2DD;
+			productRefGroup = AEB6D8B724A519E6008AC2DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEB6D8B524A519E6008AC2DD /* Olympic Maps (Completed) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEB6D8B424A519E6008AC2DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB6D8C624A519E9008AC2DD /* LaunchScreen.storyboard in Resources */,
+				AEB6D8C324A519E9008AC2DD /* Assets.xcassets in Resources */,
+				AEB6D8C124A519E6008AC2DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51F3FCF132CABC8B8D665514 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Olympic Maps (Completed)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77586D45A699BFF63E11A8BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Olympic Maps (Completed)/Pods-Olympic Maps (Completed)-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Olympic Maps (Completed)/Pods-Olympic Maps (Completed)-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Olympic Maps (Completed)/Pods-Olympic Maps (Completed)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEB6D8B224A519E6008AC2DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB6D8D124A51A5C008AC2DD /* Olympic Game.swift in Sources */,
+				AEB6D8D624A54DA2008AC2DD /* MapViewController.swift in Sources */,
+				AEB6D8D424A51AE2008AC2DD /* Olympic Series.swift in Sources */,
+				AEB6D8BE24A519E6008AC2DD /* SearchViewController.swift in Sources */,
+				AEB6D8BA24A519E6008AC2DD /* AppDelegate.swift in Sources */,
+				AEB6D8BC24A519E6008AC2DD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEB6D8BF24A519E6008AC2DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEB6D8C024A519E6008AC2DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEB6D8C424A519E9008AC2DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEB6D8C524A519E9008AC2DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEB6D8C824A519E9008AC2DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEB6D8C924A519E9008AC2DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEB6D8CB24A519E9008AC2DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 255B2EEFD91C4E75BA4D0824 /* Pods-Olympic Maps (Completed).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8NJTU7M6M;
+				INFOPLIST_FILE = "Olympic Maps (Completed)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thesdcoders.Olympic-Maps--Completed-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEB6D8CC24A519E9008AC2DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B2B74C2AD53E6BC98FF41B7 /* Pods-Olympic Maps (Completed).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8NJTU7M6M;
+				INFOPLIST_FILE = "Olympic Maps (Completed)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thesdcoders.Olympic-Maps--Completed-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEB6D8B124A519E6008AC2DD /* Build configuration list for PBXProject "Olympic Maps (Completed)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB6D8C824A519E9008AC2DD /* Debug */,
+				AEB6D8C924A519E9008AC2DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEB6D8CA24A519E9008AC2DD /* Build configuration list for PBXNativeTarget "Olympic Maps (Completed)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB6D8CB24A519E9008AC2DD /* Debug */,
+				AEB6D8CC24A519E9008AC2DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEB6D8AE24A519E6008AC2DD /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Olympic_Maps__Completed_ {
+  umbrella header "Pods-Olympic Maps (Completed)-umbrella.h"
+
+  export *
+  module * { export * }
+}
