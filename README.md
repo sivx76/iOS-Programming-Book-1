@@ -1,7 +1,7 @@
 # An Interactive Introduction to iOS Development: Learn Swift and Build Your First iPhone & iPad Apps
 A free online textbook designed for beginners that includes sample projects to work on, screenshots and downloadable code.
 
-Content includes 10 Chapters and 260 pages.
+Content includes 10 Chapters and 270 pages.
 
 
 --
